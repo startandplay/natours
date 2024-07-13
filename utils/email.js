@@ -33,7 +33,6 @@ module.exports = class Email {
       url: this.url,
       subject,
     });
-    // console.log(html);
     //2) Define email options
     const mailOptions = {
       from: this.from,
